@@ -4,11 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleApiApp"
-        mc:Ignorable="d"
-        Title="SunInfo" Height="450" Width="666.93">
+        mc:Ignorable="d" FontSize="22"
+        Title="SunInfo" Height="450" Width="666.93" WindowStartupLocation="CenterScreen">
     <Grid>
-        <StackPanel HorizontalAlignment="Left" Width="651">
-            <Button x:Name="loadSunInfo" Margin="20,20,20.2,20" Height="42" FontSize="16">Load Sun Info</Button>
+        <StackPanel>
+            <Button x:Name="loadSunInfo" Margin="20" Click="LoadSunInfo_Click">Load Sun Info</Button>
+            <TextBlock x:Name="sunriseText" Margin="20"/>
+            <TextBlock x:Name="sunsetText" Margin="20"/>
 
         </StackPanel>
 

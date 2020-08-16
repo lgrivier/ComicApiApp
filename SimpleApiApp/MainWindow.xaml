@@ -14,7 +14,7 @@
         
         <StackPanel Grid.Row="0" HorizontalAlignment="Center" Orientation="Horizontal" >
             <Button x:Name="btnPrevious" Content="Previous" HorizontalAlignment="Left"  Margin="15" VerticalAlignment="Top" Width="75" Height="24" Click="BtnPrevious_Click"/>
-            <Button x:Name="btnSunInfo" Content="Sun Information" HorizontalAlignment="Left"  Margin="15" VerticalAlignment="Top" Width="91" Height="24" RenderTransformOrigin="1.569,-0.494"/>
+            <Button x:Name="btnSunInfo" Content="Sun Information" HorizontalAlignment="Left"  Margin="15" VerticalAlignment="Top" Width="91" Height="24" RenderTransformOrigin="1.569,-0.494" Click="BtnSunInfo_Click"/>
             <Button x:Name="btnNext" Content="Next" HorizontalAlignment="Left"  Margin="15" VerticalAlignment="Top" Width="75" Height="24" Click="BtnNext_Click"/>
         </StackPanel>
 

@@ -81,5 +81,14 @@ namespace SimpleApiApp
                 }
             }
         }
+
+        private void BtnSunInfo_Click(object sender, RoutedEventArgs e)
+        {
+            SunInfo sunInfo = new SunInfo();
+
+            sunInfo.Show();
+
+            // test
+        }
     }
 }

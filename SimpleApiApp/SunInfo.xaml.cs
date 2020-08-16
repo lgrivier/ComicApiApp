@@ -23,5 +23,13 @@ namespace SimpleApiApp
         {
             InitializeComponent();
         }
+
+        private async void LoadSunInfo_Click(object sender, RoutedEventArgs e)
+        {
+            var sunInfo = await SunProcessor.LoadSunInfo();
+
+            sunriseText.Text = $"Sunrise is { sunInfo.sunrise.ToLocalTime().ToShortTimeString()}";
+            sunsetText.Text = $"Sunset is { sunInfo.sunset.ToLocalTime().ToShortTimeString()}";
+        }
     }
 }

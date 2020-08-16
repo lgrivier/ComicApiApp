@@ -67,6 +67,9 @@
     <Compile Include="SunInfo.xaml.cs">
       <DependentUpon>SunInfo.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SunModel.cs" />
+    <Compile Include="SunProcessor.cs" />
+    <Compile Include="SunResultModel.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
